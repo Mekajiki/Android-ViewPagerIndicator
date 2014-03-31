@@ -24,6 +24,14 @@
 
 
 
+        <activity
+                android:name=".SampleSquaresDefault"
+                android:label="Squares/Default">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.jakewharton.android.viewpagerindicator.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
         <!-- CIRCLE INDICATOR -->
         <activity
             android:name=".SampleCirclesDefault"
